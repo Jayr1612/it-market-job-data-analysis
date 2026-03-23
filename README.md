@@ -115,32 +115,32 @@ Raw Data Collection  →  Data Storage  →  Data Cleaning  →  Classification 
 ┌──────────────────────────────────────────────────────────────┐
 │                  DATA PROCESSING LAYER                       │
 │                                                              │
-│   utils.py                                                  │
-│   ├── classify_domain()    → 20 IT domain classification    │
-│   ├── normalize_city()     → City name standardization      │
-│   ├── parse_experience()   → String → Numeric conversion    │
-│   ├── normalize_salary()   → Salary → Annual INR            │
-│   ├── standardize_skills() → Skill name normalization       │
-│   └── deduplicate()        → Remove duplicate records       │
+│   utils.py                                                   │
+│   ├── classify_domain()    → 20 IT domain classification     │
+│   ├── normalize_city()     → City name standardization       │
+│   ├── parse_experience()   → String → Numeric conversion     │
+│   ├── normalize_salary()   → Salary → Annual INR             │
+│   ├── standardize_skills() → Skill name normalization        │
+│   └── deduplicate()        → Remove duplicate records        │
 └──────────────────────────────────────────────────────────────┘
                          ▼
 ┌──────────────────────────────────────────────────────────────┐
 │               EXPLORATORY DATA ANALYSIS LAYER                │
 │                                                              │
-│   analysis.ipynb / analysis.py                              │
-│   ├── City-wise job distribution                            │
-│   ├── Domain-wise hiring trends                             │
-│   ├── City × Domain heatmap                                 │
-│   ├── Tech stack popularity                                 │
-│   ├── Experience level distribution                         │
-│   ├── Top hiring companies                                  │
-│   ├── Portal-wise job counts                                │
-│   ├── Job type distribution                                 │
-│   ├── Salary vs experience                                  │
-│   ├── City domain stacked bars                              │
-│   ├── Skills per city (4-panel)                             │
-│   ├── Jobs posted over time                                 │
-│   └── Domain share per city (donuts)                        │
+│   analysis.ipynb / analysis.py                               │
+│   ├── City-wise job distribution                             │
+│   ├── Domain-wise hiring trends                              │
+│   ├── City × Domain heatmap                                  │
+│   ├── Tech stack popularity                                  │
+│   ├── Experience level distribution                          │
+│   ├── Top hiring companies                                   │
+│   ├── Portal-wise job counts                                 │
+│   ├── Job type distribution                                  │
+│   ├── Salary vs experience                                   │
+│   ├── City domain stacked bars                               │
+│   ├── Skills per city (4-panel)                              │
+│   ├── Jobs posted over time                                  │
+│   └── Domain share per city (donuts)                         │
 └──────────────────────────────────────────────────────────────┘
                          ▼
 ┌──────────────────────────────────────────────────────────────┐
