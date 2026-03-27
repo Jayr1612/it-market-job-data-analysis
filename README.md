@@ -14,8 +14,7 @@
 
 > ### ⚠️ EDUCATIONAL PURPOSE DISCLAIMER
 > **This project is built strictly for educational and learning purposes.**
-> All data in this project is **simulated/synthetic** and does not represent
-> real job listings. Web scraping skeletons are provided for **learning only**.
+> Web scraping skeletons are provided for **learning only**.
 > Always respect the Terms of Service of any website before scraping.
 > This project is part of a **Data Analytics Internship Portfolio.**
 
