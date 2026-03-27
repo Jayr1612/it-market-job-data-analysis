@@ -91,24 +91,24 @@ Web Scrapping  →  Raw Data Collection  →  Data Storage  →  Data Cleaning  
 ┌──────────────────────────────────────────────────────────────┐
 │                     DATA COLLECTION LAYER                    │
 │                                                              │
-│   ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐   │
-│   │  Naukri  │  │ LinkedIn │  │  Indeed  │  │Glassdoor │   │
-│   │(BS4+req) │  │(Selenium)│  │(Selenium)│  │(Selenium)│   │
-│   └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘   │
-│        │              │              │              │         │
+│   ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐     │
+│   │  Naukri  │  │ LinkedIn │  │  Indeed  │  │Glassdoor │     │
+│   │(BS4+req) │  │(Selenium)│  │(Selenium)│  │(Selenium)│     │
+│   └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘     │
+│        │              │              │              │        │
 │   ┌────┴──────────────┴──────────────┴──────────┐  │         │
-│   │            Internshala Scraper               │  │         │
-│   │         (Fresher/Intern focused)             │  │         │
-│   └────────────────────┬─────────────────────────┘  │         │
-└────────────────────────┼────────────────────────────┘         │
+│   │            Internshala Scraper               │  │        │
+│   │         (Fresher/Intern focused)             │  │        │
+│   └────────────────────┬─────────────────────────┘  │        │
+└────────────────────────┼────────────────────────────┘        │
                          ▼
 ┌──────────────────────────────────────────────────────────────┐
 │                    DATA STORAGE LAYER                        │
 │                                                              │
-│   raw_jobs_dataset.csv          (3,200 records)             │
-│   cleaned_jobs_dataset.csv      (2,399 records)             │
-│   internshala_jobs_dataset.csv  (2,000 records)             │
-│   merged_jobs_dataset.csv       (3,968 records) ← FINAL     │
+│   raw_jobs_dataset.csv          (3,200 records)              │
+│   cleaned_jobs_dataset.csv      (2,399 records)              │
+│   internshala_jobs_dataset.csv  (2,000 records)              │
+│   merged_jobs_dataset.csv       (3,968 records) ← FINAL      │
 └──────────────────────────────────────────────────────────────┘
                          ▼
 ┌──────────────────────────────────────────────────────────────┐
