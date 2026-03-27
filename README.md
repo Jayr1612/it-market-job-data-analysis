@@ -43,8 +43,8 @@ Internship** to understand IT hiring trends across Gujarat, India.
 ### 🎯 What This Project Does
 
 ```
-Raw Data Collection  →  Data Storage  →  Data Cleaning  →  Classification  →  EDA  →  Insights
-      🕷️                    🗃️               🧹               🏷️             📊       💡
+Web Scrapping  →  Raw Data Collection  →  Data Storage  →  Data Cleaning  →  Classification  →  EDA  →  Insights
+      🕷️                    🗃️               💾               🧹                 🏷️           📊       💡
 ```
 
 | Step | Task | Output |
