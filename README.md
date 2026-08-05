@@ -34,7 +34,7 @@ I built scrapers for **5 job portals**, generated a dataset of **6,647 job listi
 ╔══════════════════════════════════════════════════════════════════╗
 ║                  ⚠️  FOR EDUCATIONAL USE ONLY                   ║
 ╠══════════════════════════════════════════════════════════════════╣
-║  ✅ Built for learning and internship portfolio                  ║
+║  ✅ Built for learning and internship portfolio                 ║
 ║  ✅ All data is synthetically generated (not real)              ║
 ║  ✅ Scraper code is for learning demonstration only             ║
 ║  ✅ No real user or company data is stored                      ║
